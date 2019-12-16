@@ -11,7 +11,7 @@ shotgun
 
 Go to localhost:9393.
 
-## Tests (none written)
+## Tests (including one feature test pending)
 
 ```bash
 rspec
