@@ -1,5 +1,5 @@
 describe "Adding email addresses", type: :feature do
-    scenario "A user can add a list of two names/emails and see their recipient" do
+    xscenario "A user can add a list of two names/emails and see their recipient" do
         visit '/participants/new'
         fill_in("name", with: "David")
         fill_in("email", with: "david@david.david")
