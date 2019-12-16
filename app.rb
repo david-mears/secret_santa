@@ -2,6 +2,6 @@ require 'sinatra'
 
 class SecretSantaApp < Sinatra::Base
     get '/' do
-        "Hello world!"
+        erb(:index)
     end
 end
